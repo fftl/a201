@@ -28,6 +28,7 @@ dependencies {
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	implementation("org.mnode.ical4j:ical4j:4.0.0-beta2")
 }
 
 tasks.withType<Test> {
