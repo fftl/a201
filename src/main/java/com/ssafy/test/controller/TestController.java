@@ -11,7 +11,8 @@ public class TestController {
         System.out.println("test");
        return "getTest 통신성공!";
     }
-    @PostMapp                                                                                                                                          ing
+
+    @PostMapping
     public String postTest(@RequestParam("name") String name){
         return "postTest 통신성공! name =>" + name ;
     }
